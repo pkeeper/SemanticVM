@@ -1,1 +1,6 @@
+# Nim artifacts
 nimcache/
+*.swp
+
+# IDE's
+.project
