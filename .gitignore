@@ -2,5 +2,13 @@
 nimcache/
 *.swp
 
+# executables
+achivator
+backends/testing
+abstract_tree
+
 # IDE's
 .project
+
+# Other artifacts
+.orientdb_history
