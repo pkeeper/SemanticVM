@@ -1,3 +1,4 @@
-# Achivator [![Build Status](https://circleci.com/gh/pkeeper/achivator.png)](https://circleci.com/gh/pkeeper/achivator)
+# Semantic Virtual Machine [![Build Status](https://circleci.com/gh/pkeeper/achivator.png)](https://circleci.com/gh/pkeeper/achivator)
 
-Experimental project on Productivity enhancement, written in Nim
+Experimental project, implementation of abstract computation\storage space.
+Written in [Nim](http://nim-lang.org)
