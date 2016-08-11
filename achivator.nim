@@ -2,10 +2,13 @@
 import config
 import abstract_tree
 import infoDB
-import interpretator
+#import interpretator
 import view
-import frame
-import ui
 
 when isMainModule:
-    echo "Started"
+    case mode:
+        of XRayMode:
+            let descrs = getTopMetaDescriptors() # FIXME: convert to seq of Nodes
+            defaultView(descrs)
+        else:
+            raise newException(SystemError, "Wrong Mode")

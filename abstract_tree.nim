@@ -91,18 +91,3 @@ type
 
 
 
-proc forEach*(node: Node) =
-    if node of Container:
-        let c = Container(node)
-        for node2 in c.scope:
-            forEach(node2)
-        echo "Container id: ", c.id
-    elif node of View:
-        let v = View(node)
-        forEach(v.initNode)
-        for node2 in v.scope:
-            forEach(node2)
-        echo "View id: ", v.id
-    else:
-        echo "Node id: ", node.id
-

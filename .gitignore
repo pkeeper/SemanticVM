@@ -6,6 +6,9 @@ nimcache/
 achivator
 backends/testing
 abstract_tree
+config
+infoDB
+view
 
 # IDE's
 .project
