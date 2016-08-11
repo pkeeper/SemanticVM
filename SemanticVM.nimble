@@ -2,10 +2,10 @@
 
 version       = "0.0.1"
 author        = "Artem pkeeper Melanich"
-description   = "Experimental life organizer, based on Bodo Sch\xC3\xA4fer ideas"
+description   = "Experimental Abstrac Semantics Environment"
 license       = "GPLv3"
 
-bin           = @["achivator"]
+bin           = @["SemanticVM"]
 
 # Dependencies
 

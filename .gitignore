@@ -3,7 +3,7 @@ nimcache/
 *.swp
 
 # executables
-achivator
+SemanticVM
 backends/testing
 abstract_tree
 config
